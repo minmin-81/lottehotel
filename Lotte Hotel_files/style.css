@@ -1,8 +1,4 @@
 @charset "UTF-8";
-@font-face {
-    font-family: 'Open Sans';
-    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
-}
 
 * {
     margin: 0;
@@ -53,7 +49,6 @@ header {
     margin: auto;
     position: relative;
     display: flex;
-    justify-content: space-between;
 }
 
 .header2_search {
@@ -62,6 +57,7 @@ header {
     height: 24px;
     margin-left: 10px;
     text-align: center;
+    justify-content: space-between;
 }
 
 .header2_search li {
@@ -128,6 +124,7 @@ header {
 }
 
 .header2_navigate {
+    float: right;
     margin-top: 30px;
     margin-right: 20px;
 }
@@ -1456,7 +1453,8 @@ footer {
     margin-top: 14px;
 }
 
-.footer_family input,button:hover {
+.footer_family input,
+button:hover {
     cursor: pointer;
 }
 
@@ -1659,5 +1657,3 @@ footer {
 .popup_close2:hover {
     background-color: #333;
 }
-
-/* popup 끝 */
